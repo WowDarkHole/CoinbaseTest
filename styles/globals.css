@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pixel-font {
+  font-family: 'VT323', monospace;
+}
+.videoStyle {
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  margin-top: -6px;
+}
+
+.accordion {
+  /* max-width: 768px; */
+}
+.accordion-item {
+  list-style: none;
+}
+.accordion-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: #ccc; */
+  padding: 1em;
+}
+.accordion-toggle:hover {
+  background-color: #d9a06650;
+}
+.accordion-toggle h3 {
+  margin: 0;
+}
+.accordion-content {
+  background-color: #d9a06650;
+  color: #d46c2c;
+  padding: 1em;
+}

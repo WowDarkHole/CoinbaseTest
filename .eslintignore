@@ -1,0 +1,6 @@
+# .estlintignore file
+.next
+dist
+node_modules/
+@types/block-content-to-react.d.ts
+__tests__/StrategyCard.test.tsx
